@@ -12,7 +12,6 @@
  * effort has been made to restrict line-cap definitions to styles
  * where the results will be visible (lines at least 2 pixels thick).
  */
-
 /* ================================================================== */
 /* FONTS
 /* ================================================================== */

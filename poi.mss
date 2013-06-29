@@ -23,15 +23,12 @@
         [amenity='townhall'],
         [amenity='taxi'],
         [amenity='fire_station'],
-        [amenity='hospital'] {
-            marker-file: url('icons/poi/[amenity]-12.png');
-        }
-    }
-    [zoom=16] {
+        [amenity='hospital'],
+        [amenity='social_facility'],
+        [leisure="playground"],
         [amenity='school'] {
             marker-file: url('icons/poi/[amenity]-12.png');
         }
-    }
     [zoom>=17] {
         [highway='bus_stop'] {
             marker-file: url('icons/poi/[highway]-18.png');
@@ -42,6 +39,7 @@
         [amenity='atm'],
         [amenity='fire_station'],
         [amenity='post_office'],
+        [amenity='social_facility'],
         [amenity='hospital'] { // amenity with priority
             marker-file: url('icons/poi/[amenity]-18.png');
         }
@@ -155,12 +153,18 @@
     [zoom>=18] {
         [amenity='gambling'],
         [amenity='recycling'],
+        [amenity='social_facility'],
+        [amenity='school'],
+        [leisure="playground"],
         [amenity='waste_basket'] {
             marker-file: url('icons/poi/[amenity]-18.png');
         }
     }
     [zoom>=19] {
-        [amenity='bench'] {
+        [amenity='bench'], 
+        [amenity='school'],
+        [leisure="playground"],
+        [amenity='social_facility'], {
             marker-file: url('icons/poi/[amenity]-18.png');
         }
         [highway='street_lamp'] {
@@ -170,4 +174,5 @@
             marker-file: url('icons/poi/[emergency]-18.png');
         }
     }
+}
 }
