@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>HDM Compare</title>
+  <title>HDM Compare - Zaatari Camp in Jordan</title>
   <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.css" />  
   <link rel="stylesheet" href="http://yohanboniface.github.io/Leaflet.EditInOSM/Leaflet.EditInOSM.css" />  
   <script src="http://cdn.leafletjs.com/leaflet-0.5/leaflet.js"></script>
@@ -27,9 +27,9 @@
 </div>
 
 <script>
-var startPoint = [19.6718, -72.1304];
-var mapHDM = L.map('map-hdm', {zoomControl:false}).setView(startPoint, 13);
-L.tileLayer('http://{s}.tiles.fluv.io/hdm/{z}/{x}/{y}.png', {maxZoom: 20}).addTo(mapHDM);
+var startPoint = [32.2996, 36.3205];
+var mapHDM = L.map('map-hdm', {zoomControl:false}).setView(startPoint, 14);
+L.tileLayer('http://{s}.tiles.mapbox.com/v3/unhcr.map-egd9nemg/{z}/{x}/{y}.png', {maxZoom: 20}).addTo(mapHDM);
 var map2U = L.map('map-2u', {zoomControl: false,editInOSMControl:true}).setView(startPoint, 13);
 L.tileLayer('http://{s}.layers.openstreetmap.fr/2u/{z}/{x}/{y}.png', {maxZoom: 20}).addTo(map2U);
 var hashHDM = new L.Hash(mapHDM);
