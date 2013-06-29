@@ -1,4 +1,4 @@
-# HDM-CartoCSS
+# WORK-IN-PROGRESS: CartoCSS for Camp mapping
 
 OpenStreetmap (OSM) is a convenient shared repository for Camp Mapping data. 
 
