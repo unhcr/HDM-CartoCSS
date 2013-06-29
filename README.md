@@ -1,47 +1,57 @@
 # HDM-CartoCSS
 
-The HDM rendering is a Carto project, focusing on the [Humanitarian Data Model](http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Tags).
+OSM is a convenient shared repository for Camp Mapping data. 
+The default rendring from Open Street map does not allow to present all the details that needs to be presented
 
-Preview: http://umap.fluv.io/en/map/hdm-first-draft_728
+The HDM rendering is a Carto project, focusing on presenting the information collected through the camp mapping preset: https://github.com/unhcr/presets.
 
-Compare: http://compare.fluv.io/
+Preview: http://a.tiles.mapbox.com/v3/unhcr.hdm-camp/page.html
+
+Compare between this stule and the default OSM style: http://unhcr.github.io/HDM-CartoCSS/compare.html
 
 ## Deploying
 
-### Local configuration
+### Local configuration & Workflow
 
-Suggestion is to use [cartocc](https://github.com/yohanboniface/CartoCC) for managing the local config (like db credentials, path to shp...). Have a look at the `cartocc.json.sample` file to quick start
 
-#### Workflow to use it on TileMill:
+### Import data from Open Street map
 
-1. Clone this dir
+1. Import the data from Open Street Map (using JOSM or Qgis with the OSM plugin for instance) and save it an .osm file (here ```zaatari.osm```)
 
-1. Symlink it in your MapBox/project directory with the name `hdm`
+1. Install postgresql with the postgis extension and create the user ```osm``` with ```osm``` password and enough privileges.
 
-1. Rename `cartocc.json.sample` to `cartocc.json` and adapt it
+1. Create a spatially enabled database (call it ```hdm```) and enable hstore (through the SQL command: ```CREATE EXTENSION hstore;```). 
 
-1. run `cartocc hdm`: this will create a `project.mml` file with correct local config in the project dir
+1. Install osm2pgsql - http://wiki.openstreetmap.org/wiki/Osm2pgsql
 
-1. Run tilemill
-
-### Importing data
-
-We are using PostGIS, with the default osm2pgsql import style, AND with the hstore column. Ex.:
+1. Run osm2pgsql  - here is the command (adapt the path..):
 
 ```
-osm2pgsql -G -U ybon -d hdm data/haiti-and-domrep-latest.osm.pbf --hstore --create
+osm2pgsql -G  -s -U osm -d hdm -H localhost -P 5432  -S zaatari.osm --hstore --create
 ```
 
-### DEM
 
-1. get the file from [CGIAR](http://srtm.csi.cgiar.org/)
+####  On TileMill:
 
-1. Reproject it: `gdalwarp -s_srs EPSG:4269 -t_srs EPSG:3785 -r bilinear srtm_22_09.tif haiti-3785.tif`
+1. Install tilemill: http://www.mapbox.com/tilemill/
 
-1. Create hillshade: `gdaldem hillshade -co compress=lzw haiti-3785.tif haiti-hillshade-80-3785.tif -alt 80`
+1. Clone or downlaod this dir
+
+1. Symlink it in your MapBox/project directory with the name `hdm` or create a new project called 'hdm' and copy the files from this dir in this new project.
+
+1. Run tilemill and open the project 'hdm'
+
+
+### Optional: Digital Elevation Model
+
+1. get the file from [CGIAR](http://srtm.csi.cgiar.org/) 
+
+1. Reproject it with the gdal command: `gdalwarp -s_srs EPSG:4269 -t_srs EPSG:3785 -r bilinear srtm_44_06.tif zaatari-3785.tif`
+
+1. Create hillshade: `gdaldem hillshade -co compress=lzw zaatari-3785.tif zaatari-hillshade-80-3785.tif -alt 80`
 
 1. If you have more than one tiff for you covered area, merge them in a vrt file (remember to use absolute path): `gdalbuildvrt haiti-hillshade.vrt ~/OSM/SRTM/srtm_22_09-hillshade-80-3785.tif ~/OSM/SRTM/srtm_23_09-hillshade-80-3785.tif`
 
-1. Create contour line: `gdal_contour -a height haiti-3785.tif haiti_contour_25m.shp -i 25.0`
+1. Create contour line: `gdal_contour -a height zaatari-3785.tif zaatari_contour_25m.shp -i 25.0`
 
-1. Index shape file: `shapeindex haiti_contour_25m.shp`
+1. Index shape file: `shapeindex zaatari_contour_25m.shp`
