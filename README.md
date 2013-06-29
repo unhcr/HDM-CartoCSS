@@ -1,7 +1,8 @@
 # HDM-CartoCSS
 
-OSM is a convenient shared repository for Camp Mapping data. 
-The default rendring from Open Street map does not allow to present all the details that needs to be presented
+OpenStreetmap (OSM) is a convenient shared repository for Camp Mapping data. 
+
+The default rendering from Open Street map does not allow to present all the details that needs to be presented
 
 The HDM rendering is a Carto project, focusing on presenting the information collected through the camp mapping preset: https://github.com/unhcr/presets.
 
