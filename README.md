@@ -8,7 +8,9 @@ The HDM rendering is a Carto project, focusing on presenting the information col
 
 Preview: http://a.tiles.mapbox.com/v3/unhcr.hdm-camp/page.html
 
-Compare between this stule and the default OSM style: http://unhcr.github.io/HDM-CartoCSS/compare.html
+or http://data.unhcr.org/syrianrefugees/settlement.php?id=176&country=107&region=77
+
+Compare between this style and the default OSM style: http://unhcr.github.io/HDM-CartoCSS/compare.html
 
 ## Deploying
 
