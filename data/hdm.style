@@ -1,0 +1,210 @@
+node,way NOTE                                text  #JOSM preset
+node,way abandoned                           text  #JOSM preset
+node,way access                              text    linear  #osm2pgsql style
+node,way addr:housename                      text    linear  #osm2pgsql style
+node,way addr:housenumber                    text    linear  #osm2pgsql style
+node,way addr:interpolation                  text    linear  #osm2pgsql style
+node,way addr:postcode                       text  #JOSM preset
+node,way addr:street                         text  #JOSM preset
+node,way admin_level                         text    linear  #osm2pgsql style
+node,way aerialway                           text    linear  #osm2pgsql style
+node,way aerodrome:type                      text  #JOSM preset
+node,way aeroway                             text    polygon  #osm2pgsql style
+node,way agricultural                        text  #JOSM preset
+node,way alt_name                            text  #JOSM preset
+node,way amenity                             text    nocache,polygon  #osm2pgsql style
+node,way area                                text  #osm2pgsql style
+node,way barrier                             text    linear  #osm2pgsql style
+node,way barrier:obstacle_type               text  #JOSM preset
+node,way bicycle                             text    nocache  #osm2pgsql style
+node,way bicycle_parking                     text  #JOSM preset
+node,way boundary                            text    linear  #osm2pgsql style
+node,way brand                               text    linear  #osm2pgsql style
+node,way bridge                              text    linear  #osm2pgsql style
+node,way building                            text    polygon  #osm2pgsql style
+node,way building:levels                     text  #JOSM preset
+node,way cables                              text  #JOSM preset
+node,way canal_type                          text  #JOSM preset
+node,way capacity                            text  #JOSM preset
+node,way capacity:beds                       text  #JOSM preset
+node,way capacity:disabled                   text  #JOSM preset
+node,way capacity:parent                     text  #JOSM preset
+node,way capacity:women                      text  #JOSM preset
+node     capital                             text    linear  #osm2pgsql style
+node,way clothes                             text  #JOSM preset
+node,way condition                           text  #JOSM preset
+node,way construction                        text    linear  #osm2pgsql style
+node,way content                             text  #JOSM preset
+node,way content:source                      text  #JOSM preset
+node,way country                             text  #JOSM preset
+node,way covered                             text    linear  #osm2pgsql style
+node,way craft                               text  #JOSM preset
+node,way created_by                          text    delete  #osm2pgsql style
+node,way crop                                text  #JOSM preset
+node,way cuisine                             text  #JOSM preset
+node,way culvert                             text    linear  #osm2pgsql style
+node,way cutting                             text    linear  #osm2pgsql style
+node,way damage-type                         text  #JOSM preset
+node,way damage_prone                        text  #JOSM preset
+node,way denomination                        text    linear  #osm2pgsql style
+node,way depth                               text  #JOSM preset
+node,way direction                           text  #JOSM preset
+node,way dispensing                          text  #JOSM preset
+node,way disused                             text    linear  #osm2pgsql style
+node,way drinking_water                      text  #JOSM preset
+node     ele                                 text    linear  #osm2pgsql style
+node,way email                               text  #JOSM preset
+node,way embankment                          text    linear  #osm2pgsql style
+node,way emergency                           text  #JOSM preset
+node,way entrance                            text  #JOSM preset
+node,way fax                                 text  #JOSM preset
+node,way fee                                 text  #JOSM preset
+node,way female                              text  #JOSM preset
+node,way fire_hydrant:type                   text  #JOSM preset
+node,way foot                                text    linear  #osm2pgsql style
+node,way ford                                text  #JOSM preset
+node,way function                            text  #JOSM preset
+node,way generator:method                    text  #JOSM preset
+node,way generator:output:battery_charging   text  #JOSM preset
+node,way generator:output:cold_air           text  #JOSM preset
+node,way generator:output:cold_water         text  #JOSM preset
+node,way generator:output:compressed_air     text  #JOSM preset
+node,way generator:output:electricity        text  #JOSM preset
+node,way generator:output:hot_air            text  #JOSM preset
+node,way generator:output:hot_water          text  #JOSM preset
+node,way generator:output:steam              text  #JOSM preset
+node,way generator:output:vacuum             text  #JOSM preset
+node,way generator:source                    text    linear  #osm2pgsql style
+node,way goods                               text  #JOSM preset
+node,way harbour                             text    polygon  #osm2pgsql style
+node,way hazard_prone                        text  #JOSM preset
+node,way hazard_type                         text  #JOSM preset
+node,way health_facility:type                text  #JOSM preset
+node,way healthcare:cholera                  text  #JOSM preset
+node,way height                              text  #JOSM preset
+node,way hgv                                 text  #JOSM preset
+node,way highway                             text    linear  #osm2pgsql style
+node,way historic                            text    polygon  #osm2pgsql style
+node,way horse                               text    linear  #osm2pgsql style
+node,way hov                                 text  #JOSM preset
+node,way id:db_ctc                           text  #JOSM preset
+node,way information                         text  #JOSM preset
+node,way intermittent                        text    linear  #osm2pgsql style
+node,way internet_access                     text  #JOSM preset
+node,way junction                            text    linear  #osm2pgsql style
+node,way landuse                             text    polygon  #osm2pgsql style
+node,way lawyer                              text  #JOSM preset
+node,way layer                               text    linear  #osm2pgsql style
+node,way leisure                             text    polygon  #osm2pgsql style
+node,way lit                                 text  #JOSM preset
+node,way loc_name                            text  #JOSM preset
+node,way location                            text  #JOSM preset
+node,way lock                                text    linear  #osm2pgsql style
+node,way male                                text  #JOSM preset
+node,way man_made                            text    polygon  #osm2pgsql style
+node,way material                            text  #JOSM preset
+node,way maxaxleload                         text  #JOSM preset
+node,way maxheight                           text  #JOSM preset
+node,way maxlength                           text  #JOSM preset
+node,way maxspeed                            text  #JOSM preset
+node,way maxweight                           text  #JOSM preset
+node,way maxwidth                            text  #JOSM preset
+node,way military                            text    polygon  #osm2pgsql style
+node,way minspeed                            text  #JOSM preset
+node,way motor_vehicle                       text  #JOSM preset
+node,way motorcar                            text    linear  #osm2pgsql style
+node,way motorcycle                          text  #JOSM preset
+node,way name                                text    linear  #osm2pgsql style
+node,way natural                             text    polygon  #osm2pgsql style
+node,way noexit                              text  #JOSM preset
+node,way note                                text    delete  #osm2pgsql style
+node,way office                              text    polygon  #osm2pgsql style
+node,way old_name                            text  #JOSM preset
+node,way oneway                              text    linear  #osm2pgsql style
+node,way opening_hours                       text  #JOSM preset
+node,way operator                            text    linear  #osm2pgsql style
+node,way operator:type                       text  #JOSM preset
+node,way park_ride                           text  #JOSM preset
+node,way parking                             text  #JOSM preset
+node,way parts                               text  #JOSM preset
+node,way phone                               text  #JOSM preset
+node,way place                               text    polygon  #osm2pgsql style
+node     poi                                 text  #osm2pgsql style
+node,way population                          text    linear  #osm2pgsql style
+node,way power                               text    polygon  #osm2pgsql style
+node,way power_source                        text    linear  #osm2pgsql style
+node,way practicability:4x4                  text  #JOSM preset
+node,way practicability:heavy_truck          text  #JOSM preset
+node,way practicability:light_truck          text  #JOSM preset
+node,way practicability:motorcycle           text  #JOSM preset
+node,way practicability:truck+trailer        text  #JOSM preset
+node,way psv                                 text  #JOSM preset
+node,way public_transport                    text    polygon  #osm2pgsql style
+node,way pump                                text  #JOSM preset
+node,way railway                             text    linear  #osm2pgsql style
+node,way recycling:batteries                 text  #JOSM preset
+node,way recycling:cans                      text  #JOSM preset
+node,way recycling:clothes                   text  #JOSM preset
+node,way recycling:glass                     text  #JOSM preset
+node,way recycling:paper                     text  #JOSM preset
+node,way recycling:scrap_metal               text  #JOSM preset
+node,way recycling_type                      text  #JOSM preset
+node,way ref                                 text    linear  #osm2pgsql style
+node,way refugee                             text  #JOSM preset
+node,way religion                            text    nocache  #osm2pgsql style
+node,way rental                              text  #JOSM preset
+node,way repair                              text  #JOSM preset
+node,way rickshaw                            text  #JOSM preset
+node,way route                               text    linear  #osm2pgsql style
+node,way safety_inspection                   text  #JOSM preset
+node,way sale                                text  #JOSM preset
+node,way school:HT                           text  #JOSM preset
+node,way service                             text    linear  #osm2pgsql style
+node,way service:bicycle:cleaning            text  #JOSM preset
+node,way service:bicycle:diy                 text  #JOSM preset
+node,way service:bicycle:pump                text  #JOSM preset
+node,way service:bicycle:rental              text  #JOSM preset
+node,way service:bicycle:repair              text  #JOSM preset
+node,way service:bicycle:retail              text  #JOSM preset
+node,way service:bicycle:second_hand         text  #JOSM preset
+node,way services                            text  #JOSM preset
+node,way shop                                text    polygon  #osm2pgsql style
+node,way short_name                          text  #JOSM preset
+node,way smoothness                          text  #JOSM preset
+node,way social_facility                     text  #JOSM preset
+node,way social_facility:for                 text  #JOSM preset
+node,way source                              text    delete  #osm2pgsql style
+node,way source:date                         text  #JOSM preset
+node,way species:en                          text  #JOSM preset
+node,way species:fr                          text  #JOSM preset
+node,way sport                               text    polygon  #osm2pgsql style
+node,way stars                               text  #JOSM preset
+node,way stay                                text  #JOSM preset
+node,way storage_tank:type                   text  #JOSM preset
+node,way supervised                          text  #JOSM preset
+node,way surface                             text    linear  #osm2pgsql style
+node,way toilets:type                        text  #JOSM preset
+node,way toll                                text    linear  #osm2pgsql style
+node,way tourism                             text    polygon  #osm2pgsql style
+node,way tower:type                          text    linear  #osm2pgsql style
+way      tracktype                           text    linear  #osm2pgsql style
+node,way trade                               text  #JOSM preset
+node,way traffic_calming                     text  #JOSM preset
+node,way tunnel                              text    linear  #osm2pgsql style
+node,way type                                text  #JOSM preset
+node,way unisex                              text  #JOSM preset
+node,way vehicle                             text  #JOSM preset
+node,way voltage                             text  #JOSM preset
+node,way water                               text    polygon  #osm2pgsql style
+node,way waterway                            text    polygon  #osm2pgsql style
+way      way_area                            real  #osm2pgsql style
+node,way website                             text  #JOSM preset
+node,way wetland                             text    polygon  #osm2pgsql style
+node,way wheelchair                          text  #JOSM preset
+node,way width                               text    linear  #osm2pgsql style
+node,way wikipedia                           text  #JOSM preset
+node,way wood                                text    linear  #osm2pgsql style
+node,way works:description                   text  #JOSM preset
+node,way works:type                          text  #JOSM preset
+node,way z_order                             int4    linear  #osm2pgsql style
+
