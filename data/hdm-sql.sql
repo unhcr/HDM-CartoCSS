@@ -12,7 +12,7 @@ CREATE  VIEW admin_5_10 AS
 SELECT osm_id, way, name, place, boundary, "addr:postcode", admin_level, '/home/edouard/HDM-CartoCSS/icons/'||"addr:postcode"||'.svg' as icon FROM planet_osm_polygon WHERE "boundary" = 'administrative'  AND admin_level IN ('5', '6', '7', '8', '9', '10');
 
 CREATE  VIEW admin_8 AS 
-SELECT osm_id, way, name, place, boundary, "addr:postcode", admin_level, '/home/edouard/HDM-CartoCSS/icons/'||"addr:postcode"||'.svg' as icon FROM planet_osm_polygon WHERE "boundary" = 'administrative'  AND admin_level = '8'=;
+SELECT osm_id, way, name, place, boundary, "addr:postcode", admin_level, '/home/edouard/HDM-CartoCSS/icons/'||"addr:postcode"||'.svg' as icon FROM planet_osm_polygon WHERE "boundary" = 'administrative'  AND admin_level = '8';
 
 CREATE  VIEW admin_9 AS 
 SELECT osm_id, way, name, place, boundary, "addr:postcode", admin_level, '/home/edouard/HDM-CartoCSS/icons/'||"addr:postcode"||'.svg' as icon FROM planet_osm_polygon WHERE "boundary" = 'administrative'  AND admin_level ='9';
@@ -43,8 +43,17 @@ tags->'drinking_water' as drinking_water, "tower:type",
   OR power IN ('generator', 'sub_station', 'tower', 'pole');
 
 CREATE  VIEW poi_point_styled AS 
-SELECT osm_id, way, name, amenity, '/home/edouard/HDM-CartoCSS/icons/poi/'||amenity||'.svg' as icon 
- FROM planet_osm_point 
+SELECT osm_id, way, name, amenity as type, '/home/edouard/HDM-CartoCSS/icons/svg/'||amenity||'.svg' as icon 
+ FROM planet_osm_point WHERE amenity is not NULL  
+ UNION  
+SELECT osm_id, way, name, shop as type, '/home/edouard/HDM-CartoCSS/icons/svg/'||shop||'.svg' as icon 
+ FROM planet_osm_point WHERE shop is not NULL  
+ UNION  
+SELECT osm_id, way, name, man_made as type, '/home/edouard/HDM-CartoCSS/icons/svg/'||man_made||'.svg' as icon 
+ FROM planet_osm_point WHERE man_made is not NULL  
+ UNION 
+SELECT osm_id, way, name, highway as type, '/home/edouard/HDM-CartoCSS/icons/svg/'||highway||'.svg' as icon 
+ FROM planet_osm_point WHERE highway is not NULL  
 ;
 
 
@@ -129,13 +138,9 @@ CREATE TABLE bufferswater (
     dist integer,
     id integer NOT NULL
 );
-
 CREATE SEQUENCE bufferswater_id_seq;
 ALTER TABLE bufferswater ALTER COLUMN id SET DEFAULT nextval(' bufferswater_id_seq');
 ALTER TABLE  bufferswater ADD CONSTRAINT bufferswater_pkey PRIMARY KEY(id ); 
-
-
-
 DELETE FROM bufferswater;
 Insert INTO bufferswater (the_geom, distance, dist) SELECT
         st_union(st_transform(st_buffer(st_transform(way, 32637), (200)::double precision), 4326)), '200 m', 200
@@ -149,6 +154,20 @@ Insert INTO bufferswater (the_geom, distance, dist) SELECT
 Insert INTO bufferswater (the_geom, distance, dist) SELECT
         st_union(st_transform(st_buffer(st_transform(way, 32637), (25)::double precision), 4326)), '25 m', 25
        FROM planet_osm_point WHERE amenity= 'drinking_water';  
-
-
 CREATE INDEX idx_bufferswater_geom ON bufferswater USING GIST(the_geom);
+
+
+CREATE TABLE bufferslight (
+    the_geom geometry,
+    distance text,
+    dist integer,
+    id integer NOT NULL
+);
+CREATE SEQUENCE bufferslight_id_seq;
+ALTER TABLE bufferslight ALTER COLUMN id SET DEFAULT nextval(' bufferslight_id_seq');
+ALTER TABLE  bufferslight ADD CONSTRAINT bufferslight_pkey PRIMARY KEY(id ); 
+DELETE FROM bufferslight;
+Insert INTO bufferslight (the_geom, distance, dist) SELECT
+        st_union(st_transform(st_buffer(st_transform(way, 32637), (25)::double precision), 4326)), '25 m', 25
+       FROM planet_osm_point WHERE highway = 'street_lamp';  
+CREATE INDEX idx_bufferslight_geom ON bufferslight USING GIST(the_geom);

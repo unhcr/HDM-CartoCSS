@@ -17,3 +17,9 @@ DROP SEQUENCE buffershospital_id_seq;
 
 DROP TABLE bufferswater;
 DROP SEQUENCE bufferswater_id_seq;
+
+DROP TABLE bufferslight;
+DROP SEQUENCE bufferslight_id_seq;
+
+DROP TABLE planet_osm_point;
+DROP TABLE planet_osm_polygon;
