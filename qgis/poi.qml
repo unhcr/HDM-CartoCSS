@@ -1,475 +1,415 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="2.1.0-Master" minimumScale="10000" maximumScale="1e+08" minLabelScale="1" maxLabelScale="1e+08" hasScaleBasedVisibilityFlag="1" scaleBasedLabelVisibilityFlag="0">
-  <renderer-v2 attr="operator" symbollevels="0" type="categorizedSymbol">
+<qgis version="2.1.0-Master" minimumScale="1000" maximumScale="10000" minLabelScale="0" maxLabelScale="1e+08" hasScaleBasedVisibilityFlag="1" scaleBasedLabelVisibilityFlag="0">
+  <renderer-v2 attr="type" symbollevels="0" type="categorizedSymbol">
     <categories>
-      <category symbol="0" value="ACTED - Agency for Technical Cooperation and Development" label="ACTED - Agency for Technical Cooperation and Development"/>
-      <category symbol="1" value="Civil Defense" label="Civil Defense"/>
-      <category symbol="2" value="France" label="France"/>
-      <category symbol="3" value="Government of Jordan" label="Government of Jordan"/>
-      <category symbol="4" value="HI - Handicap International" label="HI - Handicap International"/>
-      <category symbol="5" value="ICRC - International Committee of the Red Cross" label="ICRC - International Committee of the Red Cross"/>
-      <category symbol="6" value="IMC - International Medical Corps" label="IMC - International Medical Corps"/>
-      <category symbol="7" value="Intersos" label="Intersos"/>
-      <category symbol="8" value="IOM - International Organization for Migration" label="IOM - International Organization for Migration"/>
-      <category symbol="9" value="IRC - International Rescue Committee" label="IRC - International Rescue Committee"/>
-      <category symbol="10" value="IRD - International Relief and Development" label="IRD - International Relief and Development"/>
-      <category symbol="11" value="Italy" label="Italy"/>
-      <category symbol="12" value="JEN - Japan NGO" label="JEN - Japan NGO"/>
-      <category symbol="13" value="JHAS - Jordan Health Aid Society" label="JHAS - Jordan Health Aid Society"/>
-      <category symbol="14" value="JHCO" label="JHCO"/>
-      <category symbol="15" value="Medecins du Monde" label="Medecins du Monde"/>
-      <category symbol="16" value="Medecins Sans Frontieres" label="Medecins Sans Frontieres"/>
-      <category symbol="17" value="Mercy Corps" label="Mercy Corps"/>
-      <category symbol="18" value="MoH / WHO" label="MoH / WHO"/>
-      <category symbol="19" value="Morroco" label="Morroco"/>
-      <category symbol="20" value="NRC - Norwegian Refugee Council" label="NRC - Norwegian Refugee Council"/>
-      <category symbol="21" value="Oxfam" label="Oxfam"/>
-      <category symbol="22" value="OXFAM" label="OXFAM"/>
-      <category symbol="23" value="Police" label="Police"/>
-      <category symbol="24" value="RC - Jordan / Qatar Red Cresent" label="RC - Jordan / Qatar Red Cresent"/>
-      <category symbol="25" value="RI - Relief International" label="RI - Relief International"/>
-      <category symbol="26" value="Saudi Arabia" label="Saudi Arabia"/>
-      <category symbol="27" value="Save the children" label="Save the children"/>
-      <category symbol="28" value="THW" label="THW"/>
-      <category symbol="29" value="THW - German Federal Agency for Technical Relief" label="THW - German Federal Agency for Technical Relief"/>
-      <category symbol="30" value="UNFPA - United Nations Population Fund" label="UNFPA - United Nations Population Fund"/>
-      <category symbol="31" value="UNHCR" label="UNHCR"/>
-      <category symbol="32" value="UNICEF" label="UNICEF"/>
-      <category symbol="33" value="UNICEF - United Nations Children's Fund" label="UNICEF - United Nations Children's Fund"/>
-      <category symbol="34" value="WFP - United Nations World Food Programme" label="WFP - United Nations World Food Programme"/>
+      <category symbol="0" value="bakery" label="Bakery"/>
+      <category symbol="1" value="beauty" label="Beauty Shop - Hairdresser"/>
+      <category symbol="2" value="bed" label="Bed Shop"/>
+      <category symbol="3" value="bureau_de_change" label="Bureau de Change"/>
+      <category symbol="4" value="cafe" label="Cafe"/>
+      <category symbol="5" value="cheese" label="Cheese Shop"/>
+      <category symbol="6" value="clothes" label="Clothes"/>
+      <category symbol="7" value="computer" label="Computer"/>
+      <category symbol="8" value="confectionery" label="Confectionery - Sweet"/>
+      <category symbol="9" value="convenience" label="Convenience Shop"/>
+      <category symbol="10" value="dairy_products" label="Yogurt - Dairy Products"/>
+      <category symbol="11" value="doityourself" label="Do-it-yourself Shop"/>
+      <category symbol="12" value="drinking_water" label="Drinking Water Access Point"/>
+      <category symbol="13" value="drinks" label="Drinks Shop"/>
+      <category symbol="14" value="wash_center" label="Wash Center"/>
+      <category symbol="15" value="fastfood" label="Fastfood"/>
+      <category symbol="16" value="food" label="Food Shop"/>
+      <category symbol="17" value="gas" label="Fuel sale point"/>
+      <category symbol="18" value="greengrocer" label="Greengrocer"/>
+      <category symbol="19" value="kiosk" label="Kiosk (cigarette)"/>
+      <category symbol="20" value="kitchen" label="Kitchen"/>
+      <category symbol="21" value="mobile_phone" label="Mobile Phone Reseller"/>
+      <category symbol="22" value="place_of_worship" label="Mosk"/>
+      <category symbol="23" value="restaurant" label="Restaurant"/>
+      <category symbol="24" value="shoes" label="Shoes shop"/>
+      <category symbol="25" value="street_lamp" label="Street Lamp"/>
+      <category symbol="26" value="toilets" label="Toilets"/>
+      <category symbol="27" value="vacant" label="Vacant Shop"/>
+      <category symbol="28" value="waste_basket" label="Bin (waste basket)"/>
+      <category symbol="29" value="water_service" label="Water Filtration Service"/>
+      <category symbol="30" value="" label=""/>
     </categories>
     <symbols>
       <symbol alpha="1" type="marker" name="0">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="fill" v="#000000"/>
-          <prop k="name" v="./icon/orga-acted.svg"/>
+          <prop k="name" v="./icon/poi/bakery.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline" v="#000000"/>
           <prop k="outline-width" v="1"/>
           <prop k="outline_width_unit" v="MM"/>
-          <prop k="size" v="5"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size" v="15"/>
+          <prop k="size_unit" v="MapUnit"/>
         </layer>
       </symbol>
       <symbol alpha="1" type="marker" name="1">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="fill" v="#000000"/>
-          <prop k="name" v="./icon/orga-civil-defence_humanitarian-webfont.svg"/>
+          <prop k="name" v="./icon/poi/beauty.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline" v="#000000"/>
           <prop k="outline-width" v="1"/>
           <prop k="outline_width_unit" v="MM"/>
-          <prop k="size" v="5"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size" v="15"/>
+          <prop k="size_unit" v="MapUnit"/>
         </layer>
       </symbol>
       <symbol alpha="1" type="marker" name="10">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="fill" v="#000000"/>
-          <prop k="name" v="./icon/orga-ird.svg"/>
+          <prop k="name" v="./icon/poi/dairy_products.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline" v="#000000"/>
           <prop k="outline-width" v="1"/>
           <prop k="outline_width_unit" v="MM"/>
-          <prop k="size" v="5"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size" v="15"/>
+          <prop k="size_unit" v="MapUnit"/>
         </layer>
       </symbol>
       <symbol alpha="1" type="marker" name="11">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="fill" v="#000000"/>
-          <prop k="name" v="./icon/it.svg"/>
+          <prop k="name" v="./icon/poi/doityourself.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline" v="#000000"/>
           <prop k="outline-width" v="1"/>
           <prop k="outline_width_unit" v="MM"/>
-          <prop k="size" v="5"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size" v="15"/>
+          <prop k="size_unit" v="MapUnit"/>
         </layer>
       </symbol>
       <symbol alpha="1" type="marker" name="12">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="fill" v="#000000"/>
-          <prop k="name" v="./icon/orga-jen.svg"/>
+          <prop k="name" v="./icon/poi/drinking_water.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline" v="#000000"/>
           <prop k="outline-width" v="1"/>
           <prop k="outline_width_unit" v="MM"/>
-          <prop k="size" v="5"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size" v="15"/>
+          <prop k="size_unit" v="MapUnit"/>
         </layer>
       </symbol>
       <symbol alpha="1" type="marker" name="13">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="fill" v="#000000"/>
-          <prop k="name" v="./icon/orga-jhas.svg"/>
+          <prop k="name" v="./icon/poi/drinks.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline" v="#000000"/>
           <prop k="outline-width" v="1"/>
           <prop k="outline_width_unit" v="MM"/>
-          <prop k="size" v="5"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size" v="15"/>
+          <prop k="size_unit" v="MapUnit"/>
         </layer>
       </symbol>
       <symbol alpha="1" type="marker" name="14">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="fill" v="#000000"/>
-          <prop k="name" v="./icon/orga-jhco.svg"/>
+          <prop k="name" v="./icon/poi/wash_center.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline" v="#000000"/>
           <prop k="outline-width" v="1"/>
           <prop k="outline_width_unit" v="MM"/>
-          <prop k="size" v="5"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size" v="15"/>
+          <prop k="size_unit" v="MapUnit"/>
         </layer>
       </symbol>
       <symbol alpha="1" type="marker" name="15">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="fill" v="#000000"/>
-          <prop k="name" v="./icon/orga-mdm_humanitarian-webfont.svg"/>
+          <prop k="name" v="./icon/poi/fastfood.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline" v="#000000"/>
           <prop k="outline-width" v="1"/>
           <prop k="outline_width_unit" v="MM"/>
-          <prop k="size" v="5"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size" v="15"/>
+          <prop k="size_unit" v="MapUnit"/>
         </layer>
       </symbol>
       <symbol alpha="1" type="marker" name="16">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="fill" v="#000000"/>
-          <prop k="name" v="./icon/orga-msf_humanitarian-webfont.svg"/>
+          <prop k="name" v="./icon/poi/greengrocer.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline" v="#000000"/>
           <prop k="outline-width" v="1"/>
           <prop k="outline_width_unit" v="MM"/>
-          <prop k="size" v="5"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size" v="15"/>
+          <prop k="size_unit" v="MapUnit"/>
         </layer>
       </symbol>
       <symbol alpha="1" type="marker" name="17">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="fill" v="#000000"/>
-          <prop k="name" v="./icon/orga-mercycorps.svg"/>
+          <prop k="name" v="./icon/poi/fuel.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline" v="#000000"/>
           <prop k="outline-width" v="1"/>
           <prop k="outline_width_unit" v="MM"/>
-          <prop k="size" v="5"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size" v="15"/>
+          <prop k="size_unit" v="MapUnit"/>
         </layer>
       </symbol>
       <symbol alpha="1" type="marker" name="18">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="fill" v="#000000"/>
-          <prop k="name" v="./icon/orga-who_humanitarian-webfont.svg"/>
+          <prop k="name" v="./icon/poi/greengrocer.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline" v="#000000"/>
           <prop k="outline-width" v="1"/>
           <prop k="outline_width_unit" v="MM"/>
-          <prop k="size" v="5"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size" v="15"/>
+          <prop k="size_unit" v="MapUnit"/>
         </layer>
       </symbol>
       <symbol alpha="1" type="marker" name="19">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="fill" v="#000000"/>
-          <prop k="name" v="./icon/ma.svg"/>
+          <prop k="name" v="./icon/poi/kiosk.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline" v="#000000"/>
           <prop k="outline-width" v="1"/>
           <prop k="outline_width_unit" v="MM"/>
-          <prop k="size" v="5"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size" v="15"/>
+          <prop k="size_unit" v="MapUnit"/>
         </layer>
       </symbol>
       <symbol alpha="1" type="marker" name="2">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="fill" v="#000000"/>
-          <prop k="name" v="./icon/fr.svg"/>
+          <prop k="name" v="./icon/poi/bed.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline" v="#000000"/>
           <prop k="outline-width" v="1"/>
           <prop k="outline_width_unit" v="MM"/>
-          <prop k="size" v="5"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size" v="15"/>
+          <prop k="size_unit" v="MapUnit"/>
         </layer>
       </symbol>
       <symbol alpha="1" type="marker" name="20">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="fill" v="#000000"/>
-          <prop k="name" v="./icon/orga-nrc.svg"/>
+          <prop k="name" v="./icon/poi/kitchen.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline" v="#000000"/>
           <prop k="outline-width" v="1"/>
           <prop k="outline_width_unit" v="MM"/>
-          <prop k="size" v="5"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size" v="15"/>
+          <prop k="size_unit" v="MapUnit"/>
         </layer>
       </symbol>
       <symbol alpha="1" type="marker" name="21">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="fill" v="#000000"/>
-          <prop k="name" v="./icon/orga-oxfam_humanitarian-webfont.svg"/>
+          <prop k="name" v="./icon/poi/mobile_phone.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline" v="#000000"/>
           <prop k="outline-width" v="1"/>
           <prop k="outline_width_unit" v="MM"/>
-          <prop k="size" v="5"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size" v="15"/>
+          <prop k="size_unit" v="MapUnit"/>
         </layer>
       </symbol>
       <symbol alpha="1" type="marker" name="22">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="fill" v="#000000"/>
-          <prop k="name" v="./icon/orga-oxfam_humanitarian-webfont.svg"/>
+          <prop k="name" v="./icon/poi/place_of_worship.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline" v="#000000"/>
           <prop k="outline-width" v="1"/>
           <prop k="outline_width_unit" v="MM"/>
-          <prop k="size" v="5"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size" v="15"/>
+          <prop k="size_unit" v="MapUnit"/>
         </layer>
       </symbol>
       <symbol alpha="1" type="marker" name="23">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="fill" v="#000000"/>
-          <prop k="name" v="../../Documents/Jordan/ZaatriGovernance/zaatari-osm/qgis-osm/icons/amenity/amenity_police2_brown_bg.svg"/>
+          <prop k="name" v="./icon/poi/restaurant.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline" v="#000000"/>
           <prop k="outline-width" v="1"/>
           <prop k="outline_width_unit" v="MM"/>
-          <prop k="size" v="5"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size" v="15"/>
+          <prop k="size_unit" v="MapUnit"/>
         </layer>
       </symbol>
       <symbol alpha="1" type="marker" name="24">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="fill" v="#000000"/>
-          <prop k="name" v="./icon/orga-ifrc_humanitarian-webfont.svg"/>
+          <prop k="name" v="./icon/poi/shoes.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline" v="#000000"/>
           <prop k="outline-width" v="1"/>
           <prop k="outline_width_unit" v="MM"/>
-          <prop k="size" v="5"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size" v="15"/>
+          <prop k="size_unit" v="MapUnit"/>
         </layer>
       </symbol>
       <symbol alpha="1" type="marker" name="25">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="fill" v="#000000"/>
-          <prop k="name" v="./icon/orga-relief.svg"/>
+          <prop k="name" v="./icon/poi/street_lamp.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline" v="#000000"/>
           <prop k="outline-width" v="1"/>
           <prop k="outline_width_unit" v="MM"/>
-          <prop k="size" v="5"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size" v="15"/>
+          <prop k="size_unit" v="MapUnit"/>
         </layer>
       </symbol>
       <symbol alpha="1" type="marker" name="26">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="fill" v="#000000"/>
-          <prop k="name" v="./icon/sa.svg"/>
+          <prop k="name" v="./icon/poi/toilets.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline" v="#000000"/>
           <prop k="outline-width" v="1"/>
           <prop k="outline_width_unit" v="MM"/>
-          <prop k="size" v="5"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size" v="15"/>
+          <prop k="size_unit" v="MapUnit"/>
         </layer>
       </symbol>
       <symbol alpha="1" type="marker" name="27">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="fill" v="#000000"/>
-          <prop k="name" v="./icon/orga-international-save-the-child-allian_humanitarian-webfont.svg"/>
+          <prop k="name" v="./icon/poi/vacant.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline" v="#000000"/>
           <prop k="outline-width" v="1"/>
           <prop k="outline_width_unit" v="MM"/>
-          <prop k="size" v="5"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size" v="15"/>
+          <prop k="size_unit" v="MapUnit"/>
         </layer>
       </symbol>
       <symbol alpha="1" type="marker" name="28">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="fill" v="#000000"/>
-          <prop k="name" v="./icon/orga-thw.svg"/>
+          <prop k="name" v="./icon/poi/waste-basket.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline" v="#000000"/>
           <prop k="outline-width" v="1"/>
           <prop k="outline_width_unit" v="MM"/>
-          <prop k="size" v="5"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size" v="15"/>
+          <prop k="size_unit" v="MapUnit"/>
         </layer>
       </symbol>
       <symbol alpha="1" type="marker" name="29">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="fill" v="#000000"/>
-          <prop k="name" v="./icon/orga-thw.svg"/>
+          <prop k="name" v="./icon/poi/water_service.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline" v="#000000"/>
           <prop k="outline-width" v="1"/>
           <prop k="outline_width_unit" v="MM"/>
-          <prop k="size" v="5"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size" v="15"/>
+          <prop k="size_unit" v="MapUnit"/>
         </layer>
       </symbol>
       <symbol alpha="1" type="marker" name="3">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="fill" v="#000000"/>
-          <prop k="name" v="./icon/jo.svg"/>
+          <prop k="name" v="./icon/poi/bureau_de_change.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline" v="#000000"/>
           <prop k="outline-width" v="1"/>
           <prop k="outline_width_unit" v="MM"/>
-          <prop k="size" v="5"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size" v="15"/>
+          <prop k="size_unit" v="MapUnit"/>
         </layer>
       </symbol>
       <symbol alpha="1" type="marker" name="30">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="fill" v="#000000"/>
-          <prop k="name" v="./icon/orga-unfpa_humanitarian-webfont.svg"/>
+          <prop k="name" v=""/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline" v="#000000"/>
           <prop k="outline-width" v="1"/>
           <prop k="outline_width_unit" v="MM"/>
-          <prop k="size" v="5"/>
-          <prop k="size_unit" v="MM"/>
-        </layer>
-      </symbol>
-      <symbol alpha="1" type="marker" name="31">
-        <layer pass="0" class="SvgMarker" locked="0">
-          <prop k="angle" v="0"/>
-          <prop k="fill" v="#000000"/>
-          <prop k="name" v="./icon/orga-unhcr_humanitarian-webfont.svg"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="outline" v="#000000"/>
-          <prop k="outline-width" v="1"/>
-          <prop k="outline_width_unit" v="MM"/>
-          <prop k="size" v="5"/>
-          <prop k="size_unit" v="MM"/>
-        </layer>
-      </symbol>
-      <symbol alpha="1" type="marker" name="32">
-        <layer pass="0" class="SvgMarker" locked="0">
-          <prop k="angle" v="0"/>
-          <prop k="fill" v="#000000"/>
-          <prop k="name" v="./icon/orga-unicef_humanitarian-webfont.svg"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="outline" v="#000000"/>
-          <prop k="outline-width" v="1"/>
-          <prop k="outline_width_unit" v="MM"/>
-          <prop k="size" v="5"/>
-          <prop k="size_unit" v="MM"/>
-        </layer>
-      </symbol>
-      <symbol alpha="1" type="marker" name="33">
-        <layer pass="0" class="SvgMarker" locked="0">
-          <prop k="angle" v="0"/>
-          <prop k="fill" v="#000000"/>
-          <prop k="name" v="./icon/orga-unicef_humanitarian-webfont.svg"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="outline" v="#000000"/>
-          <prop k="outline-width" v="1"/>
-          <prop k="outline_width_unit" v="MM"/>
-          <prop k="size" v="5"/>
-          <prop k="size_unit" v="MM"/>
-        </layer>
-      </symbol>
-      <symbol alpha="1" type="marker" name="34">
-        <layer pass="0" class="SvgMarker" locked="0">
-          <prop k="angle" v="0"/>
-          <prop k="fill" v="#000000"/>
-          <prop k="name" v="./icon/orga-wfp_humanitarian-webfont.svg"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="outline" v="#000000"/>
-          <prop k="outline-width" v="1"/>
-          <prop k="outline_width_unit" v="MM"/>
-          <prop k="size" v="5"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size" v="15"/>
+          <prop k="size_unit" v="MapUnit"/>
         </layer>
       </symbol>
       <symbol alpha="1" type="marker" name="4">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="fill" v="#000000"/>
-          <prop k="name" v="./icon/orga-handicap-international.svg"/>
+          <prop k="name" v="./icon/poi/cafe.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline" v="#000000"/>
           <prop k="outline-width" v="1"/>
           <prop k="outline_width_unit" v="MM"/>
-          <prop k="size" v="5"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size" v="15"/>
+          <prop k="size_unit" v="MapUnit"/>
         </layer>
       </symbol>
       <symbol alpha="1" type="marker" name="5">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="fill" v="#000000"/>
-          <prop k="name" v="./icon/orga-icrc.svg"/>
+          <prop k="name" v="./icon/poi/cheeese.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline" v="#000000"/>
           <prop k="outline-width" v="1"/>
           <prop k="outline_width_unit" v="MM"/>
-          <prop k="size" v="5"/>
+          <prop k="size" v="4"/>
           <prop k="size_unit" v="MM"/>
         </layer>
       </symbol>
@@ -477,73 +417,72 @@
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="fill" v="#000000"/>
-          <prop k="name" v="./icon/orga-imc.svg"/>
+          <prop k="name" v="./icon/poi/clothes.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline" v="#000000"/>
           <prop k="outline-width" v="1"/>
           <prop k="outline_width_unit" v="MM"/>
-          <prop k="size" v="5"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size" v="15"/>
+          <prop k="size_unit" v="MapUnit"/>
         </layer>
       </symbol>
       <symbol alpha="1" type="marker" name="7">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="fill" v="#000000"/>
-          <prop k="name" v="./icon/orga-intersos.svg"/>
+          <prop k="name" v="./icon/poi/computer.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline" v="#000000"/>
           <prop k="outline-width" v="1"/>
           <prop k="outline_width_unit" v="MM"/>
-          <prop k="size" v="5"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size" v="15"/>
+          <prop k="size_unit" v="MapUnit"/>
         </layer>
       </symbol>
       <symbol alpha="1" type="marker" name="8">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="fill" v="#000000"/>
-          <prop k="name" v="./icon/orga-iom_humanitarian-webfont.svg"/>
+          <prop k="name" v="./icon/poi/confectionery.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline" v="#000000"/>
           <prop k="outline-width" v="1"/>
           <prop k="outline_width_unit" v="MM"/>
-          <prop k="size" v="5"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size" v="15"/>
+          <prop k="size_unit" v="MapUnit"/>
         </layer>
       </symbol>
       <symbol alpha="1" type="marker" name="9">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="fill" v="#000000"/>
-          <prop k="name" v="./icon/orga-irc_humanitarian-webfont.svg"/>
+          <prop k="name" v="./icon/poi/convenience.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline" v="#000000"/>
           <prop k="outline-width" v="1"/>
           <prop k="outline_width_unit" v="MM"/>
-          <prop k="size" v="5"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size" v="15"/>
+          <prop k="size_unit" v="MapUnit"/>
         </layer>
       </symbol>
     </symbols>
     <source-symbol>
       <symbol alpha="1" type="marker" name="0">
-        <layer pass="0" class="SimpleMarker" locked="0">
+        <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="89,146,244,255"/>
-          <prop k="color_border" v="0,0,0,255"/>
-          <prop k="name" v="circle"/>
+          <prop k="fill" v="#000000"/>
+          <prop k="name" v=""/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
-          <prop k="outline_width" v="0"/>
+          <prop k="outline" v="#000000"/>
+          <prop k="outline-width" v="1"/>
           <prop k="outline_width_unit" v="MM"/>
-          <prop k="scale_method" v="area"/>
-          <prop k="size" v="2"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size" v="15"/>
+          <prop k="size_unit" v="MapUnit"/>
         </layer>
       </symbol>
     </source-symbol>
@@ -677,7 +616,7 @@
   <blendMode>0</blendMode>
   <featureBlendMode>0</featureBlendMode>
   <layerTransparency>0</layerTransparency>
-  <displayfield>osm_id</displayfield>
+  <displayfield>name</displayfield>
   <label>0</label>
   <labelattributes>
     <label fieldname="" text="Label"/>
@@ -700,15 +639,14 @@
     <selectedonly on=""/>
   </labelattributes>
   <edittypes>
+    <edittype labelontop="0" editable="1" type="0" name="icon"/>
     <edittype labelontop="0" editable="1" type="0" name="name"/>
-    <edittype labelontop="0" editable="1" type="0" name="operator"/>
-    <edittype labelontop="0" editable="1" type="0" name="operator:type"/>
-    <edittype labelontop="0" editable="1" type="0" name="operator_type"/>
     <edittype labelontop="0" editable="1" type="0" name="osm_id"/>
+    <edittype labelontop="0" editable="1" type="0" name="type"/>
   </edittypes>
-  <editform>../../Documents/Jordan/ZaatriGovernance/zaatari-osm/qgis-osm/hdm-qgis</editform>
+  <editform>.</editform>
   <editforminit></editforminit>
-  <annotationform>../../Documents/Jordan/ZaatriGovernance/zaatari-osm/qgis-osm/hdm-qgis</annotationform>
+  <annotationform>.</annotationform>
   <editorlayout>generatedlayout</editorlayout>
   <excludeAttributesWMS/>
   <excludeAttributesWFS/>

@@ -1,0 +1,1761 @@
+<Composer title="camp-style" visible="1">
+ <Composition printResolution="300" paperWidth="1189" snapGridOffsetX="1" snapGridResolution="0" snapGridOffsetY="0" alignmentSnap="1" snapping="0" numPages="1" paperHeight="841" alignmentSnapTolerance="2" printAsRaster="1">
+  <ComposerLabel valign="32" labelText="Partners in the camp" htmlState="0" halign="1" margin="1">
+   <LabelFont description="Ubuntu,28,-1,5,75,1,0,0,0,0"/>
+   <FontColor red="255" blue="255" green="255"/>
+   <ComposerItem width="328.504" x="836.996" transparency="0" y="543.396" rotation="0" height="22.2015" positionMode="0" frame="true" outlineWidth="0" zValue="17" lastValidViewScaleFactor="1.3658" uuid="{4fbff730-7ad2-4b20-9948-517a0cb12566}" id="title" background="true" blendMode="0" positionLock="false">
+    <FrameColor alpha="255" red="64" blue="201" green="131"/>
+    <BackgroundColor alpha="255" red="64" blue="201" green="131"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLegend symbolWidth="28" title="" boxSpace="0" splitLayer="1" equalColumnWidth="1" map="1" symbolHeight="12" wrapChar="" fontColor="#000000" columnSpace="0" columnCount="2">
+   <styles>
+    <style name="title" font="Ubuntu,16,-1,5,50,0,0,0,0,0"/>
+    <style name="group" font="Ubuntu,14,-1,5,50,0,0,0,0,0"/>
+    <style name="subgroup" font="Ubuntu,16,-1,5,75,1,0,0,0,0"/>
+    <style name="symbol" font="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
+    <style name="symbolLabel" font="Ubuntu,14,-1,5,75,1,0,0,0,0"/>
+   </styles>
+   <Model autoUpdate="1">
+    <LayerItem layerId="operator20130714125844546" userText="" style="subgroup" text="Operators" showFeatureCount="0">
+     <VectorClassificationItemNg userText="" text="ACTED - Agency for Technical Cooperation and Development">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/partner/orga-acted.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="5"/>
+         <prop k="size_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Civil Defense">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/partner/orga-civil-defence_humanitarian-webfont.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="5"/>
+         <prop k="size_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="France">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/partner/fr.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="5"/>
+         <prop k="size_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Government of Jordan">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/partner/jo.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="5"/>
+         <prop k="size_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="HI - Handicap International">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/partner/orga-handicap-international.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="5"/>
+         <prop k="size_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="ICRC - International Committee of the Red Cross">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/partner/orga-icrc.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="5"/>
+         <prop k="size_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="IMC - International Medical Corps">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/partner/orga-imc.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="5"/>
+         <prop k="size_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Intersos">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/partner/orga-intersos.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="5"/>
+         <prop k="size_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="IOM - International Organization for Migration">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/partner/orga-iom_humanitarian-webfont.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="5"/>
+         <prop k="size_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="IRC - International Rescue Committee">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/partner/orga-irc_humanitarian-webfont.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="5"/>
+         <prop k="size_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="IRD - International Relief and Development">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/partner/orga-ird.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="5"/>
+         <prop k="size_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Italy">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/partner/it.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="5"/>
+         <prop k="size_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="JEN - Japan NGO">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/partner/orga-jen.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="5"/>
+         <prop k="size_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="JHAS - Jordan Health Aid Society">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/partner/orga-jhas.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="5"/>
+         <prop k="size_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="JHCO">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/partner/orga-jhco.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="5"/>
+         <prop k="size_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Medecins du Monde">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/partner/orga-mdm_humanitarian-webfont.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="5"/>
+         <prop k="size_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Medecins Sans Frontieres">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/partner/orga-msf_humanitarian-webfont.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="5"/>
+         <prop k="size_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Mercy Corps">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/partner/orga-mercycorps.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="5"/>
+         <prop k="size_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="MoH / WHO">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/partner/orga-who_humanitarian-webfont.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="5"/>
+         <prop k="size_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Morroco">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/partner/ma.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="5"/>
+         <prop k="size_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="NRC - Norwegian Refugee Council">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/partner/orga-nrc.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="5"/>
+         <prop k="size_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Oxfam">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/partner/orga-oxfam_humanitarian-webfont.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="5"/>
+         <prop k="size_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="OXFAM">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/partner/orga-oxfam_humanitarian-webfont.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="5"/>
+         <prop k="size_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Police">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="../../Documents/Jordan/ZaatriGovernance/zaatari-osm/qgis-osm/icons/amenity/amenity_police2_brown_bg.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="5"/>
+         <prop k="size_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="RC - Jordan / Qatar Red Cresent">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/partner/orga-ifrc_humanitarian-webfont.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="5"/>
+         <prop k="size_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="RI - Relief International">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/partner/orga-relief.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="5"/>
+         <prop k="size_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Saudi Arabia">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/partner/sa.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="5"/>
+         <prop k="size_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Save the children">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/partner/orga-international-save-the-child-allian_humanitarian-webfont.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="5"/>
+         <prop k="size_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="THW">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/partner/orga-thw.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="5"/>
+         <prop k="size_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="THW - German Federal Agency for Technical Relief">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/partner/orga-thw.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="5"/>
+         <prop k="size_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="UNFPA - United Nations Population Fund">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/partner/orga-unfpa_humanitarian-webfont.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="5"/>
+         <prop k="size_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="UNHCR">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/partner/orga-unhcr_humanitarian-webfont.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="5"/>
+         <prop k="size_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="UNICEF">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/partner/orga-unicef_humanitarian-webfont.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="5"/>
+         <prop k="size_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="UNICEF - United Nations Children's Fund">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/partner/orga-unicef_humanitarian-webfont.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="5"/>
+         <prop k="size_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="WFP - United Nations World Food Programme">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/partner/orga-wfp_humanitarian-webfont.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="5"/>
+         <prop k="size_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+    </LayerItem>
+   </Model>
+   <ComposerItem width="306.677" x="858.824" transparency="0" y="321.411" rotation="0" height="216" positionMode="0" frame="false" outlineWidth="0.3" zValue="16" lastValidViewScaleFactor="1.3658" uuid="{040f27ab-8abf-4128-9f35-ac0cddeb3467}" id="" background="true" blendMode="0" positionLock="false">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLegend>
+  <ComposerMap keepLayerSet="false" overviewFrameMap="-1" id="1" previewMode="Cache" drawCanvasItems="false">
+   <overviewFrame overviewBlendMode="0" overviewFrameMap="-1" overviewCentered="false" overviewInverted="false">
+    <symbol alpha="0.3" type="fill" name="">
+     <layer pass="0" class="SimpleFill" locked="0">
+      <prop k="border_width_unit" v="MM"/>
+      <prop k="color" v="255,0,0,255"/>
+      <prop k="color_border" v="0,0,0,255"/>
+      <prop k="offset" v="0,0"/>
+      <prop k="offset_unit" v="MM"/>
+      <prop k="style" v="solid"/>
+      <prop k="style_border" v="no"/>
+      <prop k="width_border" v="0.26"/>
+     </layer>
+    </symbol>
+   </overviewFrame>
+   <Extent ymin="3.79989e+06" xmin="4.04153e+06" ymax="3.80382e+06" xmax="4.04633e+06"/>
+   <LayerSet/>
+   <Grid gridStyle="0" crossLength="3" intervalX="0" offsetX="0" intervalY="0" offsetY="0" gridFrameStyle="0" gridFrameWidth="2" gridBlendMode="0" show="0">
+    <symbol alpha="1" type="line" name="">
+     <layer pass="0" class="SimpleLine" locked="0">
+      <prop k="capstyle" v="flat"/>
+      <prop k="color" v="0,0,0,255"/>
+      <prop k="customdash" v="5;2"/>
+      <prop k="customdash_unit" v="MM"/>
+      <prop k="joinstyle" v="bevel"/>
+      <prop k="offset" v="0"/>
+      <prop k="offset_unit" v="MM"/>
+      <prop k="penstyle" v="solid"/>
+      <prop k="use_custom_dash" v="0"/>
+      <prop k="width" v="0.3"/>
+      <prop k="width_unit" v="MM"/>
+     </layer>
+    </symbol>
+    <Annotation rightDirection="0" bottomDirection="0" format="0" topPosition="1" precision="3" leftDirection="0" rightPosition="1" bottomPosition="1" frameDistance="1" show="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" leftPosition="1" topDirection="0">
+     <fontColor red="0" blue="0" green="0"/>
+    </Annotation>
+   </Grid>
+   <ComposerItem width="328.504" x="836.996" transparency="0" y="550.597" rotation="0" height="268.843" positionMode="0" frame="false" outlineWidth="0.3" zValue="14" lastValidViewScaleFactor="1.3658" uuid="{da0b118e-0dfa-4788-8f54-ba7b13e73105}" id="" background="true" blendMode="0" positionLock="false">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerMap>
+  <ComposerLegend symbolWidth="22" title="Legend" boxSpace="0" splitLayer="1" equalColumnWidth="0" map="1" symbolHeight="4" wrapChar="" fontColor="#000000" columnSpace="1" columnCount="4">
+   <styles>
+    <style marginBottom="1" name="title" font="Ubuntu,24,-1,5,25,0,0,0,0,0"/>
+    <style marginTop="2" name="group" font="Ubuntu Condensed,20,-1,5,50,0,0,0,0,0"/>
+    <style marginTop="8" name="subgroup" font="Ubuntu,16,-1,5,25,1,0,0,0,0"/>
+    <style name="symbol" font="Sans Serif,9,-1,5,50,0,0,0,0,0"/>
+    <style marginLeft="5" name="symbolLabel" font="Ubuntu,14,-1,5,75,1,0,0,0,0"/>
+   </styles>
+   <Model autoUpdate="0">
+    <LayerItem layerId="planet_osm_polygon20130713173659455" userText="" style="subgroup" text="Districts" showFeatureCount="0">
+     <VectorClassificationItemNg userText="" text="District">
+      <symbols>
+       <symbol alpha="0.45098" type="fill" name="classificationSymbol">
+        <layer pass="0" class="SimpleFill" locked="0">
+         <prop k="border_width_unit" v="MM"/>
+         <prop k="color" v="217,204,195,115"/>
+         <prop k="color_border" v="29,44,38,115"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="style" v="no"/>
+         <prop k="style_border" v="dot"/>
+         <prop k="width_border" v="2.05"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+    </LayerItem>
+    <LayerItem layerId="planet_osm_polygon20130713152937920" userText="" style="subgroup" text="Infrastructures" showFeatureCount="0">
+     <VectorClassificationItemNg userText="" text="Hospital">
+      <symbols>
+       <symbol alpha="0.862745" type="fill" name="classificationSymbol">
+        <layer pass="1" class="SimpleFill" locked="0">
+         <prop k="border_width_unit" v="MM"/>
+         <prop k="color" v="0,156,0,255"/>
+         <prop k="color_border" v="0,0,0,255"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="style" v="solid"/>
+         <prop k="style_border" v="no"/>
+         <prop k="width_border" v="0.26"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Distribution Center">
+      <symbols>
+       <symbol alpha="0.819608" type="fill" name="classificationSymbol">
+        <layer pass="1" class="SimpleFill" locked="0">
+         <prop k="border_width_unit" v="MM"/>
+         <prop k="color" v="255,126,184,255"/>
+         <prop k="color_border" v="0,0,0,255"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="style" v="solid"/>
+         <prop k="style_border" v="no"/>
+         <prop k="width_border" v="0.26"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="School">
+      <symbols>
+       <symbol alpha="1" type="fill" name="classificationSymbol">
+        <layer pass="1" class="SimpleFill" locked="0">
+         <prop k="border_width_unit" v="MM"/>
+         <prop k="color" v="255,107,102,255"/>
+         <prop k="color_border" v="0,0,0,255"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="style" v="solid"/>
+         <prop k="style_border" v="no"/>
+         <prop k="width_border" v="0.26"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Playground">
+      <symbols>
+       <symbol alpha="0.4" type="fill" name="classificationSymbol">
+        <layer pass="0" class="SimpleFill" locked="0">
+         <prop k="border_width_unit" v="MM"/>
+         <prop k="color" v="127,188,93,255"/>
+         <prop k="color_border" v="0,0,0,255"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="style" v="solid"/>
+         <prop k="style_border" v="no"/>
+         <prop k="width_border" v="0"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Youth Friendly Space">
+      <symbols>
+       <symbol alpha="0.52549" type="fill" name="classificationSymbol">
+        <layer pass="0" class="SimpleFill" locked="0">
+         <prop k="border_width_unit" v="MM"/>
+         <prop k="color" v="141,188,79,255"/>
+         <prop k="color_border" v="0,0,0,255"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="style" v="solid"/>
+         <prop k="style_border" v="no"/>
+         <prop k="width_border" v="0.26"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Kitchen">
+      <symbols>
+       <symbol alpha="0.4" type="fill" name="classificationSymbol">
+        <layer pass="1" class="SimpleFill" locked="0">
+         <prop k="border_width_unit" v="MM"/>
+         <prop k="color" v="229,175,13,255"/>
+         <prop k="color_border" v="16,33,50,255"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="style" v="solid"/>
+         <prop k="style_border" v="solid"/>
+         <prop k="width_border" v="0"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Wash Center">
+      <symbols>
+       <symbol alpha="0.486275" type="fill" name="classificationSymbol">
+        <layer pass="1" class="SimpleFill" locked="0">
+         <prop k="border_width_unit" v="MM"/>
+         <prop k="color" v="247,185,0,255"/>
+         <prop k="color_border" v="0,0,0,255"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="style" v="solid"/>
+         <prop k="style_border" v="no"/>
+         <prop k="width_border" v="0.26"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Office NGO">
+      <symbols>
+       <symbol alpha="1" type="fill" name="classificationSymbol">
+        <layer pass="1" class="SimpleFill" locked="0">
+         <prop k="border_width_unit" v="MM"/>
+         <prop k="color" v="144,181,255,255"/>
+         <prop k="color_border" v="0,0,0,255"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="style" v="dense4"/>
+         <prop k="style_border" v="no"/>
+         <prop k="width_border" v="0.26"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Office Government">
+      <symbols>
+       <symbol alpha="1" type="fill" name="classificationSymbol">
+        <layer pass="1" class="SimpleFill" locked="0">
+         <prop k="border_width_unit" v="MM"/>
+         <prop k="color" v="255,90,78,255"/>
+         <prop k="color_border" v="0,0,0,255"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="style" v="dense4"/>
+         <prop k="style_border" v="no"/>
+         <prop k="width_border" v="0.26"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Police">
+      <symbols>
+       <symbol alpha="0.32549" type="fill" name="classificationSymbol">
+        <layer pass="1" class="SimpleFill" locked="0">
+         <prop k="border_width_unit" v="MM"/>
+         <prop k="color" v="138,80,255,255"/>
+         <prop k="color_border" v="0,0,0,255"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="style" v="solid"/>
+         <prop k="style_border" v="solid"/>
+         <prop k="width_border" v="0.16"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Religion">
+      <symbols>
+       <symbol alpha="0.588235" type="fill" name="classificationSymbol">
+        <layer pass="1" class="SimpleFill" locked="0">
+         <prop k="border_width_unit" v="MM"/>
+         <prop k="color" v="255,232,208,255"/>
+         <prop k="color_border" v="0,0,0,255"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="style" v="solid"/>
+         <prop k="style_border" v="no"/>
+         <prop k="width_border" v="0.26"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+    </LayerItem>
+    <LayerItem layerId="planet_osm_line20130712201900410" userText="" style="subgroup" text="Road Network" showFeatureCount="0">
+     <VectorClassificationItemNg userText="" text="Main Road">
+      <symbols>
+       <symbol alpha="1" type="line" name="classificationSymbol">
+        <layer pass="4" class="SimpleLine" locked="0">
+         <prop k="capstyle" v="flat"/>
+         <prop k="color" v="143,143,143,255"/>
+         <prop k="customdash" v="5;2"/>
+         <prop k="customdash_unit" v="MM"/>
+         <prop k="joinstyle" v="bevel"/>
+         <prop k="offset" v="0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="penstyle" v="solid"/>
+         <prop k="use_custom_dash" v="0"/>
+         <prop k="width" v="1.7"/>
+         <prop k="width_unit" v="MM"/>
+        </layer>
+        <layer pass="5" class="SimpleLine" locked="0">
+         <prop k="capstyle" v="round"/>
+         <prop k="color" v="255,251,137,255"/>
+         <prop k="customdash" v="5;2"/>
+         <prop k="customdash_unit" v="MM"/>
+         <prop k="joinstyle" v="bevel"/>
+         <prop k="offset" v="0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="penstyle" v="solid"/>
+         <prop k="use_custom_dash" v="0"/>
+         <prop k="width" v="1.5"/>
+         <prop k="width_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Road">
+      <symbols>
+       <symbol alpha="1" type="line" name="classificationSymbol">
+        <layer pass="1" class="SimpleLine" locked="0">
+         <prop k="capstyle" v="round"/>
+         <prop k="color" v="143,143,143,255"/>
+         <prop k="customdash" v="5;2"/>
+         <prop k="customdash_unit" v="MM"/>
+         <prop k="joinstyle" v="bevel"/>
+         <prop k="offset" v="0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="penstyle" v="solid"/>
+         <prop k="use_custom_dash" v="0"/>
+         <prop k="width" v="1.3"/>
+         <prop k="width_unit" v="MM"/>
+        </layer>
+        <layer pass="2" class="SimpleLine" locked="0">
+         <prop k="capstyle" v="round"/>
+         <prop k="color" v="255,255,255,255"/>
+         <prop k="customdash" v="5;2"/>
+         <prop k="customdash_unit" v="MM"/>
+         <prop k="joinstyle" v="round"/>
+         <prop k="offset" v="0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="penstyle" v="solid"/>
+         <prop k="use_custom_dash" v="0"/>
+         <prop k="width" v="1"/>
+         <prop k="width_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Small Road">
+      <symbols>
+       <symbol alpha="1" type="line" name="classificationSymbol">
+        <layer pass="0" class="SimpleLine" locked="0">
+         <prop k="capstyle" v="square"/>
+         <prop k="color" v="209,209,209,255"/>
+         <prop k="customdash" v="5;2"/>
+         <prop k="customdash_unit" v="MM"/>
+         <prop k="joinstyle" v="round"/>
+         <prop k="offset" v="0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="penstyle" v="solid"/>
+         <prop k="use_custom_dash" v="0"/>
+         <prop k="width" v="0.4"/>
+         <prop k="width_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Paths">
+      <symbols>
+       <symbol alpha="0.486275" type="line" name="classificationSymbol">
+        <layer pass="0" class="SimpleLine" locked="0">
+         <prop k="capstyle" v="square"/>
+         <prop k="color" v="132,158,126,255"/>
+         <prop k="customdash" v="5;2"/>
+         <prop k="customdash_unit" v="MM"/>
+         <prop k="joinstyle" v="bevel"/>
+         <prop k="offset" v="0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="penstyle" v="dash"/>
+         <prop k="use_custom_dash" v="0"/>
+         <prop k="width" v="0.26"/>
+         <prop k="width_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Airport Runway">
+      <symbols>
+       <symbol alpha="1" type="line" name="classificationSymbol">
+        <layer pass="0" class="SimpleLine" locked="0">
+         <prop k="capstyle" v="square"/>
+         <prop k="color" v="200,200,200,255"/>
+         <prop k="customdash" v="5;2"/>
+         <prop k="customdash_unit" v="MM"/>
+         <prop k="joinstyle" v="bevel"/>
+         <prop k="offset" v="0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="penstyle" v="solid"/>
+         <prop k="use_custom_dash" v="0"/>
+         <prop k="width" v="2"/>
+         <prop k="width_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+    </LayerItem>
+    <LayerItem layerId="bufferslight20130916090716695" userText="" style="subgroup" text="Public Light (25 m coverage)" showFeatureCount="0">
+     <VectorClassificationItemNg userText="" text="Public Light (25 m coverage)">
+      <symbols>
+       <symbol alpha="1" type="fill" name="classificationSymbol">
+        <layer pass="0" class="SimpleFill" locked="0">
+         <prop k="border_width_unit" v="MM"/>
+         <prop k="color" v="251,255,0,255"/>
+         <prop k="color_border" v="255,226,0,255"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="style" v="solid"/>
+         <prop k="style_border" v="solid"/>
+         <prop k="width_border" v="0.26"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+    </LayerItem>
+    <LayerItem layerId="bufferswater20130915223649792" userText="" style="subgroup" text="Distance from Water Point" showFeatureCount="0">
+     <VectorClassificationItemNg userText="" text="25 m">
+      <symbols>
+       <symbol alpha="1" type="fill" name="classificationSymbol">
+        <layer pass="0" class="SimpleFill" locked="0">
+         <prop k="border_width_unit" v="MM"/>
+         <prop k="color" v="123,50,148,255"/>
+         <prop k="color_border" v="255,255,255,255"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="style" v="solid"/>
+         <prop k="style_border" v="dot"/>
+         <prop k="width_border" v="0.26"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="50 m">
+      <symbols>
+       <symbol alpha="1" type="fill" name="classificationSymbol">
+        <layer pass="0" class="SimpleFill" locked="0">
+         <prop k="border_width_unit" v="MM"/>
+         <prop k="color" v="211,192,220,255"/>
+         <prop k="color_border" v="255,255,255,255"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="style" v="solid"/>
+         <prop k="style_border" v="dot"/>
+         <prop k="width_border" v="0.26"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="100 m">
+      <symbols>
+       <symbol alpha="1" type="fill" name="classificationSymbol">
+        <layer pass="0" class="SimpleFill" locked="0">
+         <prop k="border_width_unit" v="MM"/>
+         <prop k="color" v="193,228,189,255"/>
+         <prop k="color_border" v="254,254,254,255"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="style" v="solid"/>
+         <prop k="style_border" v="dot"/>
+         <prop k="width_border" v="0.26"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+    </LayerItem>
+    <LayerItem layerId="poi_point_styled20130916093544532" userText="" style="subgroup" text="Points of Interest [2990]" showFeatureCount="1">
+     <VectorClassificationItemNg userText="" text="Bakery [2]">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/poi/bakery.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="25"/>
+         <prop k="size_unit" v="MapUnit"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Beauty Shop - Hairdresser [13]">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/poi/beauty.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="25"/>
+         <prop k="size_unit" v="MapUnit"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Bed Shop [6]">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/poi/bed.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="25"/>
+         <prop k="size_unit" v="MapUnit"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Bureau de Change [6]">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/poi/bureau_de_change.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="25"/>
+         <prop k="size_unit" v="MapUnit"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Cafe [2]">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/poi/cafe.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="25"/>
+         <prop k="size_unit" v="MapUnit"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Cheese Shop [1]">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/poi/cheeese.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="6"/>
+         <prop k="size_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Clothes [13]">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/poi/clothes.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="25"/>
+         <prop k="size_unit" v="MapUnit"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Computer [3]">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/poi/computer.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="25"/>
+         <prop k="size_unit" v="MapUnit"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Confectionery - Sweet [7]">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/poi/confectionery.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="25"/>
+         <prop k="size_unit" v="MapUnit"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Convenience Shop [59]">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/poi/convenience.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="25"/>
+         <prop k="size_unit" v="MapUnit"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Yogurt - Dairy Products [5]">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/poi/dairy_products.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="25"/>
+         <prop k="size_unit" v="MapUnit"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Do-it-yourself Shop [3]">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/poi/doityourself.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="25"/>
+         <prop k="size_unit" v="MapUnit"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Drinks Shop [6]">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/poi/drinks.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="25"/>
+         <prop k="size_unit" v="MapUnit"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Dry food (flour,etc) [99]">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/poi/food.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="25"/>
+         <prop k="size_unit" v="MapUnit"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Fastfood [5]">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/poi/fastfood.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="25"/>
+         <prop k="size_unit" v="MapUnit"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Food Shop [1]">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/poi/food.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="25"/>
+         <prop k="size_unit" v="MapUnit"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Fuel sale point [1]">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/poi/fuel.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="25"/>
+         <prop k="size_unit" v="MapUnit"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Greengrocer [90]">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/poi/greengrocer.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="25"/>
+         <prop k="size_unit" v="MapUnit"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Kiosk (cigarette) [91]">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/poi/kiosk.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="25"/>
+         <prop k="size_unit" v="MapUnit"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Kitchen [265]">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/poi/kitchen.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="25"/>
+         <prop k="size_unit" v="MapUnit"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Mobile Phone Reseller [15]">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/poi/mobile_phone.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="25"/>
+         <prop k="size_unit" v="MapUnit"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Mosk [54]">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/poi/place_of_worship.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="25"/>
+         <prop k="size_unit" v="MapUnit"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Restaurant [30]">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/poi/restaurant.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="25"/>
+         <prop k="size_unit" v="MapUnit"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Shoes shop [1]">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/poi/shoes.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="25"/>
+         <prop k="size_unit" v="MapUnit"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Street Lamp [780]">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/poi/street_lamp.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="25"/>
+         <prop k="size_unit" v="MapUnit"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Toilets [149]">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/poi/toilets.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="25"/>
+         <prop k="size_unit" v="MapUnit"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Vacant Shop [35]">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/poi/vacant.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="25"/>
+         <prop k="size_unit" v="MapUnit"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Bin (waste basket) [493]">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/poi/waste-basket.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="25"/>
+         <prop k="size_unit" v="MapUnit"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Water Filtration Service [2]">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/poi/water_service.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="25"/>
+         <prop k="size_unit" v="MapUnit"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+     <VectorClassificationItemNg userText="" text="Water Point [353]">
+      <symbols>
+       <symbol alpha="1" type="marker" name="classificationSymbol">
+        <layer pass="0" class="SvgMarker" locked="0">
+         <prop k="angle" v="0"/>
+         <prop k="fill" v="#000000"/>
+         <prop k="name" v="./icon/poi/drinking_water.svg"/>
+         <prop k="offset" v="0,0"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="outline" v="#000000"/>
+         <prop k="outline-width" v="1"/>
+         <prop k="outline_width_unit" v="MM"/>
+         <prop k="size" v="4"/>
+         <prop k="size_unit" v="MM"/>
+        </layer>
+       </symbol>
+      </symbols>
+     </VectorClassificationItemNg>
+    </LayerItem>
+   </Model>
+   <ComposerItem width="376.308" x="789.192" transparency="0" y="78.3108" rotation="0" height="243.1" positionMode="0" frame="true" outlineWidth="0" zValue="13" lastValidViewScaleFactor="1.3658" uuid="{3102a4ec-278b-4268-9bed-fc3a11430141}" id="" background="true" blendMode="0" positionLock="false">
+    <FrameColor alpha="255" red="255" blue="255" green="255"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLegend>
+  <ComposerScaleBar penColor="#000000" style="Double Box" numMapUnitsPerScaleBarUnit="1" alignment="0" brushColor="#000000" numSegments="5" segmentMillimeters="20.4583" fontColor="#000000" font="Ubuntu,14,-1,5,25,1,0,0,0,0" numUnitsPerSegment="100" units="0" labelBarSpace="3" outlineWidth="0.01" numSegmentsLeft="0" height="11" mapId="0" boxContentSpace="6" unitLabel="meters">
+   <ComposerItem width="135.374" x="41.15" transparency="0" y="608.296" rotation="0" height="30.6" positionMode="0" frame="true" outlineWidth="0" zValue="12" lastValidViewScaleFactor="0.699525" uuid="{307d92eb-e05f-4ee7-8e48-9f1679daf221}" id="" background="false" blendMode="0" positionLock="false">
+    <FrameColor alpha="255" red="255" blue="255" green="255"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerScaleBar>
+  <ComposerPicture pictureWidth="43.783" file="./qrcode-zaatri-portal.png" pictureHeight="37.7257" mapId="-1">
+   <ComposerItem width="43.783" x="197.43" transparency="0" y="744.312" rotation="0" height="37.7257" positionMode="0" frame="true" outlineWidth="0" zValue="11" lastValidViewScaleFactor="0.67395" uuid="{d7e49a67-045f-4efc-a07c-837946c20eb9}" id="" background="false" blendMode="0" positionLock="false">
+    <FrameColor alpha="255" red="255" blue="255" green="255"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerPicture>
+  <ComposerLabel valign="32" labelText="For more information, please contact UNHCR Jordan IM Unit: joramimf@unhcr.org&#xa;and consult the Information Sharing Portal @ http://data.unhcr.org/syrianrefugees" htmlState="0" halign="1" margin="1">
+   <LabelFont description="Ubuntu,11,-1,5,75,1,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="192.346" x="65.332" transparency="0" y="791.064" rotation="0" height="11.6079" positionMode="0" frame="true" outlineWidth="0" zValue="10" lastValidViewScaleFactor="0.67395" uuid="{b8763ad7-54f2-437b-8421-0949adcfca06}" id="" background="false" blendMode="0" positionLock="false">
+    <FrameColor alpha="255" red="255" blue="255" green="255"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerPicture pictureWidth="50.8931" file="./osm_logo.png" pictureHeight="37.4033" mapId="-1">
+   <ComposerItem width="50.8931" x="38.015" transparency="0" y="746.891" rotation="0" height="37.4033" positionMode="0" frame="true" outlineWidth="0" zValue="9" lastValidViewScaleFactor="0.67395" uuid="{156309f7-f63c-4836-b097-d7b8dc1dfab1}" id="" background="false" blendMode="0" positionLock="false">
+    <FrameColor alpha="255" red="255" blue="255" green="255"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerPicture>
+  <ComposerLabel valign="32" labelText="As of 15/09/2013" htmlState="0" halign="1" margin="1">
+   <LabelFont description="Ubuntu,36,-1,5,75,1,0,0,0,0"/>
+   <FontColor red="255" blue="255" green="255"/>
+   <ComposerItem width="153.887" x="812.685" transparency="0" y="42.7022" rotation="0" height="29.9371" positionMode="0" frame="true" outlineWidth="0" zValue="8" lastValidViewScaleFactor="0.67395" uuid="{28813444-6d00-40c3-b5a9-e411ac423ffe}" id="" background="false" blendMode="0" positionLock="false">
+    <FrameColor alpha="255" red="64" blue="201" green="131"/>
+    <BackgroundColor alpha="255" red="64" blue="201" green="131"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerPicture pictureWidth="41.2521" file="./qrcode-osmbeginner.png" pictureHeight="38.1304" mapId="-1">
+   <ComposerItem width="41.2521" x="143.83" transparency="0" y="744.552" rotation="0" height="38.1304" positionMode="0" frame="true" outlineWidth="0" zValue="7" lastValidViewScaleFactor="0.67395" uuid="{65bffd3c-973d-4158-84bb-461225e14a30}" id="" background="false" blendMode="0" positionLock="false">
+    <FrameColor alpha="255" red="255" blue="255" green="255"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerPicture>
+  <ComposerPicture pictureWidth="41.0493" file="./qrcode-zaatri.png" pictureHeight="37.4212" mapId="-1">
+   <ComposerItem width="41.0493" x="94.64" transparency="0" y="744.939" rotation="0" height="37.4212" positionMode="0" frame="true" outlineWidth="0" zValue="6" lastValidViewScaleFactor="0.67395" uuid="{8d853da9-fa80-4a21-9b7c-d40f379f91b2}" id="" background="false" blendMode="0" positionLock="false">
+    <FrameColor alpha="255" red="255" blue="255" green="255"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerPicture>
+  <ComposerLabel valign="32" labelText="The base map is maintained in openStreetMap  (http://www.openstreetmap.org/?lat=32.2945&amp;lon=36.3334&amp;zoom=14).&#xa;&#xa;&quot;Map data © OpenStreetMap contributors&quot;. Current contributors list includes UNICEF, UNHCR &amp; REACH.&#xa;&#xa;Humanitarian Workers are encouraged to improve &amp; correct this map through the online editor.&#xa;http://wiki.openstreetmap.org/wiki/Beginners%27_guide" htmlState="0" halign="1" margin="1">
+   <LabelFont description="Ubuntu,22,-1,5,25,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="211.057" x="34.702" transparency="0" y="645" rotation="0" height="104.498" positionMode="0" frame="true" outlineWidth="0" zValue="5" lastValidViewScaleFactor="0.67395" uuid="{8d6e1921-f0ea-4059-a4ba-35ba4b4df430}" id="" background="false" blendMode="0" positionLock="false">
+    <FrameColor alpha="255" red="255" blue="255" green="255"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerPicture pictureWidth="187.335" file="./unhcr-white.png" pictureHeight="58.6726" mapId="-1">
+   <ComposerItem width="187.335" x="978.165" transparency="0" y="18.2219" rotation="0" height="58.6726" positionMode="0" frame="true" outlineWidth="0" zValue="4" lastValidViewScaleFactor="1.3658" uuid="{152ec40e-5c50-4d71-a9a7-628b74ad7483}" id="logo" background="false" blendMode="0" positionLock="false">
+    <FrameColor alpha="255" red="64" blue="201" green="131"/>
+    <BackgroundColor alpha="255" red="64" blue="201" green="131"/>
+   </ComposerItem>
+  </ComposerPicture>
+  <ComposerLabel valign="32" labelText="  Zaatri Refugee Camp Base Map" htmlState="0" halign="1" margin="1">
+   <LabelFont description="Ubuntu,89,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="255" blue="255" green="255"/>
+   <ComposerItem width="1163.24" x="10.2637" transparency="0" y="17.5944" rotation="0" height="60.7164" positionMode="0" frame="true" outlineWidth="0" zValue="3" lastValidViewScaleFactor="1.35126" uuid="{ac0daaf1-0324-469b-95af-7326a8ba00d2}" id="title" background="true" blendMode="0" positionLock="false">
+    <FrameColor alpha="255" red="64" blue="201" green="131"/>
+    <BackgroundColor alpha="255" red="64" blue="201" green="131"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerShape shapeType="1">
+   <ComposerItem width="234" x="27" transparency="0" y="604" rotation="0" height="211" positionMode="0" frame="true" outlineWidth="0" zValue="2" lastValidViewScaleFactor="0.317647" uuid="{ef07ba1b-8afe-4a19-bec7-afbdbba4c55f}" id="" background="false" blendMode="0" positionLock="false">
+    <FrameColor alpha="0" red="255" blue="255" green="255"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerShape>
+  <ComposerMap keepLayerSet="false" overviewFrameMap="-1" id="0" previewMode="Render" drawCanvasItems="true">
+   <overviewFrame overviewBlendMode="0" overviewFrameMap="-1" overviewCentered="false" overviewInverted="false">
+    <symbol alpha="0.3" type="fill" name="">
+     <layer pass="0" class="SimpleFill" locked="0">
+      <prop k="border_width_unit" v="MM"/>
+      <prop k="color" v="255,0,0,255"/>
+      <prop k="color_border" v="0,0,0,255"/>
+      <prop k="offset" v="0,0"/>
+      <prop k="offset_unit" v="MM"/>
+      <prop k="style" v="solid"/>
+      <prop k="style_border" v="no"/>
+      <prop k="width_border" v="0.26"/>
+     </layer>
+    </symbol>
+   </overviewFrame>
+   <Extent ymin="3.79979e+06" xmin="4.04175e+06" ymax="3.80381e+06" xmax="4.04744e+06"/>
+   <LayerSet/>
+   <Grid gridStyle="0" crossLength="3" intervalX="0" offsetX="0" intervalY="0" offsetY="0" gridFrameStyle="0" gridFrameWidth="2" gridBlendMode="0" show="0">
+    <symbol alpha="1" type="line" name="">
+     <layer pass="0" class="SimpleLine" locked="0">
+      <prop k="capstyle" v="square"/>
+      <prop k="color" v="0,0,0,255"/>
+      <prop k="customdash" v="5;2"/>
+      <prop k="customdash_unit" v="MM"/>
+      <prop k="joinstyle" v="bevel"/>
+      <prop k="offset" v="0"/>
+      <prop k="offset_unit" v="MM"/>
+      <prop k="penstyle" v="solid"/>
+      <prop k="use_custom_dash" v="0"/>
+      <prop k="width" v="0"/>
+      <prop k="width_unit" v="MM"/>
+     </layer>
+    </symbol>
+    <Annotation rightDirection="0" bottomDirection="0" format="0" topPosition="1" precision="3" leftDirection="0" rightPosition="1" bottomPosition="1" frameDistance="1" show="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" leftPosition="1" topDirection="0">
+     <fontColor red="0" blue="0" green="0"/>
+    </Annotation>
+   </Grid>
+   <ComposerItem width="1164" x="10.2637" transparency="0" y="5" rotation="0" height="823" positionMode="0" frame="true" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="1.3658" uuid="{ea3e21a3-2b58-46e7-8256-9bbd7eee0959}" id="" background="false" blendMode="0" positionLock="true">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerMap>
+ </Composition>
+</Composer>

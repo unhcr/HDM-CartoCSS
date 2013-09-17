@@ -15,7 +15,9 @@ CREATE  VIEW admin_8 AS
 SELECT osm_id, way, name, place, boundary, "addr:postcode", admin_level, '/home/edouard/HDM-CartoCSS/icons/'||"addr:postcode"||'.svg' as icon FROM planet_osm_polygon WHERE "boundary" = 'administrative'  AND admin_level = '8';
 
 CREATE  VIEW admin_9 AS 
-SELECT osm_id, way, name, place, boundary, "addr:postcode", admin_level, '/home/edouard/HDM-CartoCSS/icons/'||"addr:postcode"||'.svg' as icon FROM planet_osm_polygon WHERE "boundary" = 'administrative'  AND admin_level ='9';
+SELECT osm_id, way, right(name, (char_length(name) - 15)) as name, left("addr:postcode", 10) as district,  place, boundary, "addr:postcode", 
+admin_level, '/home/edouard/HDM-CartoCSS/qgis/icon/qrcode/'||"addr:postcode"||'.svg' as icon 
+FROM planet_osm_polygon WHERE "boundary" = 'administrative'  AND admin_level ='9';
 
 
 CREATE  VIEW  building_point AS 
@@ -144,16 +146,16 @@ ALTER TABLE  bufferswater ADD CONSTRAINT bufferswater_pkey PRIMARY KEY(id );
 DELETE FROM bufferswater;
 Insert INTO bufferswater (the_geom, distance, dist) SELECT
         st_union(st_transform(st_buffer(st_transform(way, 32637), (200)::double precision), 4326)), '200 m', 200
-       FROM planet_osm_point WHERE amenity= 'drinking_water';
+       FROM planet_osm_point WHERE amenity= 'drinking_water' OR amenity= 'water_point';
 Insert INTO bufferswater (the_geom, distance, dist) SELECT
         st_union(st_transform(st_buffer(st_transform(way, 32637), (100)::double precision), 4326)), '100 m', 100
-       FROM planet_osm_point WHERE amenity= 'drinking_water';
+       FROM planet_osm_point WHERE amenity= 'drinking_water'OR amenity= 'water_point';
 Insert INTO bufferswater (the_geom, distance, dist) SELECT
         st_union(st_transform(st_buffer(st_transform(way, 32637), (50)::double precision), 4326)), '50 m', 50
-       FROM planet_osm_point WHERE amenity= 'drinking_water';
+       FROM planet_osm_point WHERE amenity= 'drinking_water'OR amenity= 'water_point';
 Insert INTO bufferswater (the_geom, distance, dist) SELECT
         st_union(st_transform(st_buffer(st_transform(way, 32637), (25)::double precision), 4326)), '25 m', 25
-       FROM planet_osm_point WHERE amenity= 'drinking_water';  
+       FROM planet_osm_point WHERE amenity= 'drinking_water'OR amenity= 'water_point';  
 CREATE INDEX idx_bufferswater_geom ON bufferswater USING GIST(the_geom);
 
 
